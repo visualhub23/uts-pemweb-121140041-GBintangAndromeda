@@ -1,0 +1,136 @@
+/* Import Google Font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.garamond{
+    font-family: 'EB Garamond', serif;
+}
+
+/* css navbar */
+.header {
+  height: 110px;
+  width: 100%;
+  padding: 0 20px;
+  background: #0f0f0f;
+}
+
+.nav-logo img {
+  width: 50px;
+}
+
+.nav {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #eeeeee;
+  font-size: 20px;
+}
+
+.button{
+    font-size: 20px;
+}
+
+.nav,
+.nav-item {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-item {
+  column-gap: 25px;
+}
+
+.nav-link:hover {
+  color: #dde6ed;
+}
+/* AKHIR css navbar */
+
+
+/* banner */
+.banner{
+    background: #0f0f0f;
+    position: relative;
+}
+
+.banner-content{
+    display: block;
+}
+
+.banner-text{
+    position: relative;
+    color: #eeeeee;
+    padding: 1em;
+    font-size: 12em;
+    z-index: 2;
+}
+
+.banner-background{
+    position: absolute;
+    right: 350px;
+    top: 4em;
+    max-width: 100%;
+    width: 500px;
+    z-index: 1;
+}
+/* akhir banner */
+
+/* deskripsi web */
+.web-description{
+    background-color: #5C8374;
+    height: 600px;
+    position: relative;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 1em;
+}
+
+.content1{
+    font-size: 20px;
+    position: relative;
+    bottom: 2em;
+    right: 5em;
+    font-weight: 700;
+}
+
+.content2{
+    position: relative;
+    left: 5em;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+/* footer */
+.footer{
+    height: 150px;
+    background: #0f0f0f;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.copyright{
+    color: #eeeeee;
+    font-size: 20px;
+}

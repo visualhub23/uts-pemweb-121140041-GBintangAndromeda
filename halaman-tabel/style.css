@@ -1,0 +1,113 @@
+/* Import Google Font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.garamond {
+  font-family: "EB Garamond", serif;
+}
+
+/* == NAVBAR == */
+.header {
+    height: 110px;
+    width: 100%;
+    padding: 0 20px;
+    background: #0f0f0f;
+}
+
+.nav-logo img {
+    width: 50px;
+}
+
+.nav {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #eeeeee;
+    font-size: 20px;
+}
+
+.button {
+    font-size: 20px;
+}
+
+.nav,
+.nav-item {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item {
+    column-gap: 25px;
+}
+
+.nav-link:hover {
+    color: #dde6ed;
+}
+/* == NAVBAR END== */
+
+/* == TABEL */
+.table-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 50px auto;
+
+}
+
+.title-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+table{
+    font-size: 18px;
+}
+
+.kolom-table:nth-child(odd){
+    background-color: #B9B4C7;
+}
+
+.kolom-table:nth-child(even){
+    background-color: #F1EFEF;
+}
+/* == TABEL END*/
+
+
+
+/* == FOOTER == */
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background: #0f0f0f;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.copyright{
+    color: #eeeeee;
+    font-size: 20px;
+} 
+/* == FOOTER END == */
